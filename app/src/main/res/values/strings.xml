@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VOTEXY</string>
+
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
+    <color name="bluebg">#2265D2</color>
+
+    <string name="visi_kandidat1">Menjadikan BEM FEB UGM sebagai lembaga yang interaktif  kepada mahasiswa dan masyarakat untuk bersinergi dalam menciptakan inovasi.</string>
+    <string name="misi_kandidat1">Membangun Internal berlandaskan kekeluargaan dan bernafaskan profesionalisme.
+Merangkul himpunan jurusan dan lembaga kemahasiswaan yang ada di dalam lingkungan kampus FEB UGM.
+Menguatkan media aspirasi untuk melayani mahasiswa dan masyarakat secara solutif.
+Memfasilitasi pengembangan minat bakat, keilmuan, dan karakter mahasiswa FEB UGM di kancah universitas, nasional, dan internasional.
+Menghasilkan kajian dan membangun kerjasama strategis dalam upaya pemecahan masalah nasional dan internasional.</string>
+
+    <string name="visi_kandidat2">BEM FEB UGM sebagai inisiator humanisasj mahasiswa FEB serta menjadi pemrakarsa integritas FEB UGM guna mewujudkan Sagatra Dharmabakti.</string>
+    <string name="misi_kandidat2">Membangun internal BEM FEB UM yang berlandaskan professionalitas dan berasaskan kekeluargaan.
+    Memfasilitasi dan mendukung mahasiswa FEB UGM untuk berperan serta dalam melaksanakan tri dharma perguruan tinggi.
+    Optimalisasi nalar dan naluri kritis mahasiswa FEB UGM melalui media yang kreatif serta informatif.
+    Harmonisasi seluruh civitas akademika FEB UGM</string>
+</resources>

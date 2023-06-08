@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appPage.InfoCandidatActivity"
+    android:background="@drawable/bgtes">
+
+    <ImageView
+        android:id="@+id/back_infocandidat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="39dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/tv_infocandidat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/sequel"
+        android:text="Info Kandidat"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        app:layout_constraintStart_toEndOf="@+id/back_infocandidat"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_infokandidat"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/bluebg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_infocandidat">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="570dp">
+
+                <TextView
+                    android:id="@+id/tv_nama_kandidat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Joko Widodo"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="18dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/foto_kandidat1"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_below="@+id/tv_nama_kandidat"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/image_candidat" />
+
+                <TextView
+                    android:id="@+id/detailNimKandidat1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/foto_kandidat1"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="39dp"
+                    android:text="NIM"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/isiNIM1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/foto_kandidat1"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="14dp"
+                    android:layout_toEndOf="@+id/detailNimKandidat1"
+                    android:text="202031073" />
+
+                <TextView
+                    android:id="@+id/detailJurusanKandidat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detailNimKandidat1"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginTop="6dp"
+                    android:text="Jurusan"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/isiJurusan1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/isiNIM1"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toEndOf="@+id/detailJurusanKandidat"
+                    android:text="Teknik Informatika"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/detailVisi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detailJurusanKandidat"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="39dp"
+                    android:text="Visi-Misi"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/isivisi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/isiJurusan1"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_toEndOf="@+id/detailVisi1"
+                    android:text="@string/visi_kandidat1"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/isimisi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/isivisi1"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="107dp"
+                    android:textSize="14dp"
+                    android:layout_marginEnd="18dp"
+                    android:text="@string/misi_kandidat1" />
+
+                <TextView
+                    android:id="@+id/tv_nama_kandidat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detailVisi1"
+                    android:layout_marginTop="300dp"
+                    android:text="2. Probowo Subianto"
+                    android:textSize="20dp"
+                    android:layout_marginStart="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/foto_kandidat2"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_below="@+id/tv_nama_kandidat2"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/image_candidat" />
+
+                <TextView
+                    android:id="@+id/detailNimKandidat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/foto_kandidat2"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="39dp"
+                    android:textSize="14dp"
+                    android:text="NIM"/>
+
+                <TextView
+                    android:id="@+id/isiNIM2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/foto_kandidat2"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="14dp"
+                    android:text="202011175"
+                    android:layout_toEndOf="@id/detailNimKandidat2"/>
+
+                <TextView
+                    android:id="@+id/detailJurusanKandidat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/detailNimKandidat2"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginTop="6dp"
+                    android:text="Jurusan"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/isiJurusan2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/isiNIM2"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toEndOf="@id/detailJurusanKandidat2"
+                    android:textSize="14dp"
+                    android:text="Teknik Elektro"/>
+
+                <TextView
+                    android:id="@+id/detailVisi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/detailJurusanKandidat2"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="39dp"
+                    android:text="Visi-Misi"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/isivisi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/isiJurusan2"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_toEndOf="@id/detailVisi2"
+                    android:textSize="14dp"
+                    android:text="@string/visi_kandidat2"/>
+
+                <TextView
+                    android:id="@+id/isimisi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/isivisi2"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="107dp"
+                    android:layout_marginEnd="18dp"
+                    android:text="@string/misi_kandidat2"
+                    android:textSize="14dp"/>
+
+                <Button
+                    android:id="@+id/btn_vote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/isimisi2"
+                    android:background="@drawable/editpadding"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginEnd="100dp"
+                    android:text="vote"
+                    android:layout_marginBottom="18dp"/>
+
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
