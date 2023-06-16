@@ -2,7 +2,7 @@
 Capstone project Bangkit Academy - Pembuatan aplikasi E-voting
 
 Votexy: "Your Vote,Your Voice,Your Future - Redefining Democracy in Digital Age"
-This is a project to fulfill the Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+This is a project to fulfill the ####Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
 
 Bangkit Capstone Tim C23-PS049
 
