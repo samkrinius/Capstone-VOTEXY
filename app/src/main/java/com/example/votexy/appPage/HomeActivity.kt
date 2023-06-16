@@ -5,11 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.votexy.R
+import com.example.votexy.database.db_helper
 import com.example.votexy.initialApp.HasilVoteActivity
+import com.example.votexy.initialApp.KameraActivity
 import com.example.votexy.initialApp.MainActivity
 import com.google.android.material.navigation.NavigationView
 
@@ -65,6 +69,10 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_exit -> {
                 startActivity(Intent(this, MainActivity::class.java))
+                true
+            }
+            R.id.nav_camera -> {
+                startActivity(Intent(this, KameraActivity::class.java))
                 true
             }
             else -> true
